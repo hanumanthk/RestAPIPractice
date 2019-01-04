@@ -14,6 +14,10 @@
 		C2185BC121B67B9D00032A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2185BBF21B67B9D00032A1E /* LaunchScreen.storyboard */; };
 		C2185BCC21B67B9D00032A1E /* RestAPIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2185BCB21B67B9D00032A1E /* RestAPIPracticeTests.swift */; };
 		C2185BD721B67B9D00032A1E /* RestAPIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2185BD621B67B9D00032A1E /* RestAPIPracticeUITests.swift */; };
+		C2185BE521B67CDF00032A1E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2185BE421B67CDF00032A1E /* LoginViewController.swift */; };
+		C22A0CAA21BBC9FB003DA2BF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A0CA921BBC9FB003DA2BF /* SignUpViewController.swift */; };
+		C22B5B9D21C1055600FB6D6F /* SignUpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22B5B9C21C1055600FB6D6F /* SignUpResponseModel.swift */; };
+		C22B5B9F21C114F900FB6D6F /* SignUpErrorResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22B5B9E21C114F900FB6D6F /* SignUpErrorResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C2185BD221B67B9D00032A1E /* RestAPIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2185BD621B67B9D00032A1E /* RestAPIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIPracticeUITests.swift; sourceTree = "<group>"; };
 		C2185BD821B67B9E00032A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2185BE421B67CDF00032A1E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C22A0CA921BBC9FB003DA2BF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C22B5B9C21C1055600FB6D6F /* SignUpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponseModel.swift; sourceTree = "<group>"; };
+		C22B5B9E21C114F900FB6D6F /* SignUpErrorResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpErrorResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,15 @@
 		C2185BB521B67B9A00032A1E /* RestAPIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C22B5B9B21C104C400FB6D6F /* Models */,
 				C2185BB621B67B9A00032A1E /* AppDelegate.swift */,
 				C2185BB821B67B9A00032A1E /* ViewController.swift */,
 				C2185BBA21B67B9A00032A1E /* Main.storyboard */,
 				C2185BBD21B67B9D00032A1E /* Assets.xcassets */,
 				C2185BBF21B67B9D00032A1E /* LaunchScreen.storyboard */,
 				C2185BC221B67B9D00032A1E /* Info.plist */,
+				C2185BE421B67CDF00032A1E /* LoginViewController.swift */,
+				C22A0CA921BBC9FB003DA2BF /* SignUpViewController.swift */,
 			);
 			path = RestAPIPractice;
 			sourceTree = "<group>";
@@ -123,6 +134,15 @@
 				C2185BD821B67B9E00032A1E /* Info.plist */,
 			);
 			path = RestAPIPracticeUITests;
+			sourceTree = "<group>";
+		};
+		C22B5B9B21C104C400FB6D6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C22B5B9C21C1055600FB6D6F /* SignUpResponseModel.swift */,
+				C22B5B9E21C114F900FB6D6F /* SignUpErrorResponseModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2185BE521B67CDF00032A1E /* LoginViewController.swift in Sources */,
+				C22B5B9D21C1055600FB6D6F /* SignUpResponseModel.swift in Sources */,
 				C2185BB921B67B9A00032A1E /* ViewController.swift in Sources */,
+				C22B5B9F21C114F900FB6D6F /* SignUpErrorResponseModel.swift in Sources */,
+				C22A0CAA21BBC9FB003DA2BF /* SignUpViewController.swift in Sources */,
 				C2185BB721B67B9A00032A1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
